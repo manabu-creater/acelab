@@ -252,7 +252,7 @@ footer {
 
 @media screen and (max-width: 599px) {
   header {
-    width: 380px;
+    width: 100%;
     height: 30vh;
     background-repeat: initial;
     background-size: cover;
