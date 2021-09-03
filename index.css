@@ -19,7 +19,7 @@ ul,li {
 /* header */
 header {
   background-image:url(img/tooth1.jpeg); 
-/*   height: 100vh; */
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -252,7 +252,7 @@ footer {
 
 @media screen and (max-width: 599px) {
   header {
-/*     height: 30vh; */
+    height: initial;
     background-repeat: initial;
     background-size: cover;
     background-position: center;
@@ -269,6 +269,7 @@ footer {
   .logo {
     width: 100px;
     height: 55px;
+    margin: 30px auto 10px;
   }
 
   .sns a {
@@ -277,6 +278,10 @@ footer {
 
   .navigation {
     width: 100%;
+  }
+  
+  .header-right P {
+    margin-top: 5px;
   }
 
   .nav li {
