@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+}
+
+/* container */
+
+.container {
+  text-align: center;
+  width: 600px;
+  margin: 50px auto;
+}
+
+.title h1 {
+  color: red;
+  font-size: 130%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.task h1, .task2 h1 {
+  border-bottom: 5px solid red;
+  width: 50%;
+  margin-bottom: 5%;
+  font-size: 350%;
+}
+
+.task h2, .task2 h2 {
+  font-size: 200%;
+  margin-bottom: 40px;
+}
+
+.task h3 {
+  font-size: 180%;
+  margin-bottom: 20px;
+  border-bottom: 3px solid black;
+  display: inline-block;
+}
+
+.task2 h3 {
+  font-size: 180%;
+  margin-bottom: 40px;
+}
+
+.task p, .task2 p {
+  font-size: 130%;
+  margin-bottom: 40px;
+}
+
+.task2 h1 {
+  margin-top: 10%;
+}
+
+.task2 {
+  margin-bottom: 10%;
+}
+
+@media screen and (max-width: 599px) {
+  .container p {
+    font-size: 60%;
+  }
+
+  .task h1, .task2 h1 {
+    font-size: 100%;
+  }
+
+  .title h1, .task h2, .task h3, .task2 h2, .task2 h3 {
+    font-size: 70%;
+  }
+
+  .task h2, .task h3, .task2 h3, .task2 h2 {
+    margin-bottom: 20px;
+  }
+
+  .task p {
+    margin-bottom: 20px;
+    font-size: 60%;
+  }
+}
+
+@media screen and (min-width:768px) and ( max-width:1024px) {
+}

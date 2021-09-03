@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+}
+
+.table1 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.title {
+  color: red;
+  font-size: 200%;
+}
+.task h1, .task2 h1 {
+  border-bottom: 5px solid red;
+  width: 50%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  display: block;
+  font-size: 280%;
+}
+.task h2, .task2 h2 {
+  font-size: 200%;
+  display: block;
+  margin-bottom: 1%;
+}
+.task h3, .task2 h3 {
+  font-size: 180%;
+  display: block;
+  margin-bottom: 1%;
+}
+.task p, .task2 p {
+  font-size: 110%;
+  display: block;
+  margin-bottom: 1%;
+  border-top: solid;
+}
+.task2 h1 {
+  margin-top: 10%;
+}
+.task2 {
+  margin-bottom: 10%;
+}
+
+@media screen and (max-width: 599px) {
+  
+  .title {
+    font-size: 150%;
+  }
+  
+  .task h1 {
+    font-size: 100%;
+  }
+
+  .task2 h1 {
+    font-size: 105%;
+  } 
+
+  .task h2, .task2 h2, .task h3, .task2 h3 {
+    font-size: 100%;
+  }
+
+}
+
+/* i pad  */
+@media screen and (min-width:768px) and ( max-width:1024px) {
+
+}

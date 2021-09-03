@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+}
+
+/* ここからページ部分 */
+.explain-title{
+  border-bottom: 3px solid red;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.explain p{
+  margin: 15px 0 40px 0;
+  font-size: 130%;
+}
+
+.explain {
+  text-align: center;
+}
+
+.last{
+  text-align: center;
+  font-size: 130%;
+}
+
+
+
+@media screen and (max-width: 599px) {
+
+  .explain-title {
+    font-size: 90%;
+    margin-top: 30px;
+  }
+
+  .explain p, .last {
+    font-size: 60%;
+    white-space: nowrap;
+  }
+
+  .explain p {
+    margin-bottom: initial;
+  }
+
+
+
+}
