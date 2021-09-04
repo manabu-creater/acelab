@@ -168,7 +168,7 @@ header {
   margin-top: 50px;
 }
 
-.col-md-10, .profile2 {
+.col-md-12, .profile2 {
   display: flex;
   margin-top: 20px;
 }
@@ -241,6 +241,10 @@ header {
 table {
   margin-top: 30px;
   margin-right: 50px;
+}
+
+.address {
+  white-space: nowrap;
 }
 
 .time {
@@ -321,7 +325,7 @@ footer {
     order: 1;
   }
 
-  .col-md-10, .profile2 {
+  .col-md-12, .profile2 {
     flex-direction: column;
   }
 
@@ -394,32 +398,54 @@ footer {
 
 /* i pad  */
 @media screen and (min-width:768px) and ( max-width:1024px) {
+  header {
+    height: 50vh;
+  }
+
   .header-right a, .header-right p {
-    font-size: 80%;
+    font-size: 90%;
   }
 
   .fab {
-    font-size: 80%;
+    font-size: 90%;
   }
 
   .logo {
-    width: 130px;
-    height: 55px;
+    width: 200px;
+    height: 85px;
+    margin: 80px auto 10px;
   }
 
-  .nav li {
-    font-size: 130%;
-    margin: 10px 30px;
+  .sns a {
+    margin: 30px 10px;
   }
-  
-  .contents {
-    width: 650px;
-    margin: 20px auto 20px; 
+
+
+  .nav li {
+    margin: 10px 20px;
+    font-weight: bold;
+  }
+
+  .nav a {
+    font-size: 90%;
+  }
+
+  .header-right P {
+    margin-top: 5px;
+  }
+
+  .navigation {
+    position: initial;
   }
 
   .main {
-    width: 330px;
+    width: 640px;
     margin: 0 auto;
+  }
+
+  .contents {
+    width: 640px;
+    margin: 20px auto 20px; 
   }
 
   .profile {
@@ -441,7 +467,7 @@ footer {
     order: 1;
   }
 
-  .col-md-10, .profile2 {
+  .col-md-12, .profile2 {
     flex-direction: column;
   }
 
@@ -461,7 +487,7 @@ footer {
   }
   
   .top-text p, .top-text2 p {
-    font-size: 60%;
+    font-size: 90%;
     white-space: nowrap;
   }
 
@@ -489,7 +515,7 @@ footer {
   
   .row p {
     margin-top: 10px;
-    font-size: 80%;
+    font-size: 90%;
   }
   
   table {
@@ -498,7 +524,7 @@ footer {
   }
   
   .time {
-    font-size: 80%;
+    font-size: 90%;
   }
 
   .address {
