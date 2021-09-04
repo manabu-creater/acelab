@@ -1,0 +1,99 @@
+/* リセットCSS */
+body {
+  text-align: center;
+}
+
+.table1 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* container */
+.container {
+  width: 100%;
+}
+
+.lineup p {
+  font-size: 150%;
+  margin-bottom: 30px;
+}
+
+.lineup {
+  margin-bottom: 80px;
+}
+
+.lineup h1{
+  font-size: 250%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.lineup h2{
+  font-size: 200%;
+  margin-bottom: 3%;
+  margin-top: 80px;
+}
+
+.item2  {
+ margin-bottom: 5%;
+}
+
+.text {
+  font-size: 180%;
+  border-style: groove;
+  border-color: silver;
+  padding: 5% 0;
+  white-space: nowrap;
+  color: blue;
+  margin-bottom: 100px;
+}
+
+.text-warning {
+  font-size: 150%;
+}
+
+@media screen and (max-width: 599px) {
+  .lineup h1 {
+    margin-bottom: 15px;
+  }
+
+  .lineup p {
+    font-size: 70%;
+    margin-bottom: 10px;
+  }
+
+  .lineup h1, .item1 h2, .item2 h2  {
+    font-size: 100%;
+  }
+
+  .item1 h2, .item2 h2 {
+    margin-top: 50px;
+  }
+
+  .lineup li {
+    font-size: 80%;
+    margin-bottom: 10px;
+  }
+
+  .text {
+    font-size: 70%;
+    margin-bottom: 50px;
+  }
+
+  .text-warning, .item, .item th {
+    font-size: 60%;
+    white-space: nowrap;
+  }
+
+  .iteminfo {
+    font-size: 70%;
+    margin-top: 10px;
+  }
+
+  .row h2 {
+    margin-top: 10px;
+  }
+
+   
+}
+
