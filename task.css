@@ -3,7 +3,6 @@ body {
 }
 
 /* container */
-
 .container {
   text-align: center;
   width: 600px;
@@ -78,4 +77,16 @@ body {
 }
 
 @media screen and (min-width:768px) and ( max-width:1024px) {
+  .task h1, .task2 h1 {
+    font-size: 240%;
+  }
+
+  .title h1, .task h2, .task h3, .task2 h2, .task2 h3 {
+    font-size: 170%;
+  }
+
+  .container p {
+    font-size: 150%;
+  }
+
 }

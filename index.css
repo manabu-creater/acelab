@@ -18,7 +18,7 @@ ul,li {
 
 /* header */
 header {
-  background-image:url(img/tooth1.jpeg); 
+  background-image:url(img/top.jpeg); 
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,6 +46,10 @@ header {
   display: block;
   font-size: 95%;
   flex-wrap: nowrap;
+}
+
+.insta {
+  width: 60px;
 }
 
 .sns {
@@ -247,6 +251,10 @@ table {
   white-space: nowrap;
 }
 
+.ratio {
+  margin-top: 20px;
+}
+
 .time {
   font-size: 80%;
 }
@@ -286,6 +294,10 @@ footer {
 
   .sns a {
     margin: 10px 10px;
+  }
+
+  .insta {
+    width: 40px;
   }
 
   .nav li {
@@ -388,10 +400,6 @@ footer {
   
   .time {
     font-size: 80%;
-  }
-
-  .address {
-    white-space: nowrap;
   }
 
 }
@@ -499,13 +507,6 @@ footer {
     font-size: 200%;
     margin-bottom: 10px;
   }
-  
-
-  .appearance, iframe {
-    width: 280px;
-    height: 200px;
-    margin: 0 auto 20px;
-  }
 
   .row h3 {
     font-size: 200%;
@@ -515,12 +516,18 @@ footer {
   
   .row p {
     margin-top: 10px;
-    font-size: 90%;
+    font-size: 70%;
   }
-  
+
   table {
     margin-top: 30px;
     margin-right: 50px;
+  }
+
+  .ratio {
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 300px;
   }
   
   .time {

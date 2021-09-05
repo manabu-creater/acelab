@@ -44,3 +44,21 @@ body {
 
 
 }
+
+/* i pad  */
+@media screen and (min-width:768px) and ( max-width:1024px) {
+  .row {
+    width: 640px;
+    margin: 0 auto;
+  }
+  
+  .explain-title {
+    font-size: 150%;
+    margin-top: 30px;
+  }
+  
+  .explain p, .last {
+    font-size: 100%;
+    white-space: nowrap;
+  }
+}

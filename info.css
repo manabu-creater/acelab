@@ -64,5 +64,29 @@ body {
 
 /* i pad  */
 @media screen and (min-width:768px) and ( max-width:1024px) {
+  .container {
+    width: 640px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 230%;
+  }
 
+  .task h1, .task2 h1 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  
+  .task h1 {
+    font-size: 150%;
+  }
+
+  .task2 h1 {
+    font-size: 150%;
+  } 
+
+  .task h2, .task2 h2, .task h3, .task2 h3 {
+    font-size: 150%;
+  }
 }
