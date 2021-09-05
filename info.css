@@ -64,11 +64,6 @@ body {
 
 /* i pad  */
 @media screen and (min-width:768px) and ( max-width:1024px) {
-  .container {
-    width: 640px;
-    margin: 0 auto;
-  }
-  
   .title {
     font-size: 230%;
   }
