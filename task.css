@@ -5,8 +5,8 @@ body {
 /* container */
 .container {
   text-align: center;
-  width: 600px;
-  margin: 50px auto;
+  /* width: 600px;
+  margin: 50px auto; */
 }
 
 .title h1 {
@@ -74,6 +74,7 @@ body {
     margin-bottom: 20px;
     font-size: 60%;
   }
+  
 }
 
 @media screen and (min-width:768px) and ( max-width:1024px) {

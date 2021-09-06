@@ -26,27 +26,27 @@ body {
 
 
 @media screen and (max-width: 599px) {
-
   .explain-title {
     font-size: 90%;
     margin-top: 30px;
   }
 
   .explain p, .last {
-    font-size: 60%;
+    font-size: 50%;
     white-space: nowrap;
   }
 
   .explain p {
     margin-bottom: initial;
   }
+  
 
 
 
 }
 
 /* i pad  */
-@media screen and (min-width:768px) and ( max-width:1024px) {
+@media screen and (min-width:768px) and ( max-width:1024px) {  
   .explain-title {
     font-size: 150%;
     margin-top: 30px;
