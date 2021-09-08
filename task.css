@@ -2,6 +2,10 @@ body {
   text-align: center;
 }
 
+header {
+  background-image:url(img/top.jpeg); 
+}
+
 /* container */
 .container {
   text-align: center;
@@ -50,7 +54,17 @@ body {
 }
 
 .task2 {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+}
+
+.image-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.sample {
+  width: 350px;
+  margin: 10px 20px 50px;
 }
 
 @media screen and (max-width: 599px) {
@@ -74,6 +88,11 @@ body {
     margin-bottom: 20px;
     font-size: 60%;
   }
+
+  .sample {
+    width: 100px;
+    margin: 10px 5px 20px;
+  }
   
 }
 
@@ -88,6 +107,11 @@ body {
 
   .container p {
     font-size: 150%;
+  }
+
+  .sample {
+    width: 220px;
+    margin: 10px 10px 20px;
   }
 
 }
