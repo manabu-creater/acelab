@@ -8,7 +8,12 @@ body {
   width: 100%;
 } */
 
-/* container */
+/* main */
+.item1 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .lineup p {
   font-size: 150%;
   margin-bottom: 30px;
@@ -66,7 +71,12 @@ body {
   white-space: nowrap;
 }
 
+
 @media screen and (max-width: 599px) {
+  .item1 {
+    width: initial;
+  }
+
   .lineup h1 {
     margin-bottom: 15px;
   }
@@ -143,5 +153,9 @@ body {
     width: 600px;
     height: 350px;
     margin: 40px auto 60px;
+  }
+
+  .item1 {
+    width: initial;
   }
 }
